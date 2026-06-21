@@ -8,10 +8,10 @@ public class Main {
 		Solution sol = new Solution();
 		
 		System.out.println("Concatenate Array With Reverse");
-		System.out.println("Enter size of array: ");
+		System.out.print("Enter size of array: ");
 		int n = sc.nextInt();
 		
-		System.out.println("Enter array: ");
+		System.out.print("Enter array: ");
 		int nums[] = new int[n];
 		for (int i = 0; i < nums.length; i++) {
 			nums[i] = sc.nextInt();

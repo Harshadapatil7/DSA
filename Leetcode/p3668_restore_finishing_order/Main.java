@@ -7,17 +7,19 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		Solution2 sol = new Solution2();
 		
-		System.out.println("Enter size of orders: ");
+		System.out.print("Enter size of orders: ");
 		int m = sc.nextInt();
-		System.out.println("Enter orders: ");
+		
+		System.out.print("Enter orders: ");
 		int[] order = new int[m];
 		for (int i = 0; i < order.length; i++) {
 			order[i] = sc.nextInt();
 		}
 		
-		System.out.println("Enter size of friends: ");
+		System.out.print("Enter size of friends: ");
 		int n = sc.nextInt();
-		System.out.println("Enter friends: ");
+		
+		System.out.print("Enter friends: ");
 		int[] friends = new int[n];
 		for (int i = 0; i < friends.length; i++) {
 			friends[i] = sc.nextInt();

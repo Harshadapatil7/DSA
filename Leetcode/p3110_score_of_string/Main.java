@@ -8,11 +8,12 @@ public class Main {
 		Solution sol = new Solution();
 		
 		System.out.println("Score of a String");
-		System.out.println("Enter string: ");
+		
+		System.out.print("Enter string: ");
 		String str = sc.next();
 		
 		int score = sol.scoreOfString(str);
-		System.out.println("Score = "+score);
+		System.out.print("Score = "+score);
 		sc.close();
 	}
 

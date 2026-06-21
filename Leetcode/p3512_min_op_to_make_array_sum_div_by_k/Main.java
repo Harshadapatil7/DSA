@@ -8,16 +8,16 @@ public class Main {
 		Solution sol = new Solution();
 		
 		System.out.println("Minimum Operations to Make Array Sum Divisible by K");
-		System.out.println("Enter size of array: ");
+		System.out.print("Enter size of array: ");
 		int n = sc.nextInt();
 		
-		System.out.println("Enter array: ");
+		System.out.print("Enter array: ");
 		int nums[] = new int[n];
 		for (int i = 0; i < nums.length; i++) {
 			nums[i] = sc.nextInt();
 		}
 		
-		System.out.println("Enter k");
+		System.out.print("Enter k: ");
 		int k = sc.nextInt();
 		
 		int ans = sol.minOperations(nums, k);

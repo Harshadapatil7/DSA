@@ -9,12 +9,12 @@ public class Main {
 		Solution sol = new Solution();
 		
 		System.out.println("Degree of each vertex");
-		System.out.println("Enter no. of nodes: ");
+		System.out.print("Enter no. of nodes: ");
 		int n = sc.nextInt();
 	
 		int arr[][] = new int[n][n];
 		
-		System.out.println("Enter array: ");
+		System.out.print("Enter array: ");
 		for (int i = 0; i < arr.length; i++) {
 			for (int j = 0; j < arr[i].length; j++) {
 				arr[i][j] = sc.nextInt();
